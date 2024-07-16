@@ -1,0 +1,17 @@
+### List all messages 
+
+GET http://localhost:3000/prompts
+
+### Create new message
+
+POST http://localhost:3000/prompts
+Content-Type: application/json
+
+{
+    "name": "Fares",
+    "prompt": "Write a short story about a journey through a magical forest"
+}
+
+### Get a particular message
+
+GET http://localhost:3000/prompts/1
